@@ -18,6 +18,6 @@ class DialogIf < Formula
   test do
     (testpath/"test.dg").write("(program entry point) hello world")
     system bin/"dialogc", "-tz8", "test.dg"
-    assert_predicate testpath/"test.z8", :exist?
+    assert_path_exists testpath/"test.z8"
   end
 end

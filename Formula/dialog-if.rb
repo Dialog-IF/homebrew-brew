@@ -3,7 +3,7 @@ class DialogIf < Formula
   homepage "https://github.com/dialog-if/dialog/"
   url "https://github.com/Dialog-IF/dialog/releases/download/release-1b01-1.2.0/dialog-1b01-1.2.0.zip"
   version "1b01-1.2.0"
-  sha256 "sha256:5e2776ac8cda07484e019d91e5d15645a2a22d41320f8fb3895a9b72cf50f8e8"
+  sha256 "5e2776ac8cda07484e019d91e5d15645a2a22d41320f8fb3895a9b72cf50f8e8"
 
   def install
     chdir "src" do

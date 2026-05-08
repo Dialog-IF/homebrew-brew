@@ -12,7 +12,7 @@ class DialogIf < Formula
     end
     doc.install Dir["docs/*"]
     prefix.install "readme.txt", "license.txt"
-    pkgshare.install "stdlib.dg", "stddebug.dg"
+    pkgshare.install "stdlib.dg", "stddebug.dg", "unit.dg"
   end
 
   test do

@@ -1,9 +1,9 @@
 class DialogIf < Formula
   desc "Domain-specific language for creating works of interactive fiction"
   homepage "https://github.com/dialog-if/dialog/"
-  url "https://github.com/Dialog-IF/dialog/releases/download/release-1a01-1.1.0/dialog-1a01-1.1.0.zip"
-  version "1a01-1.1.0"
-  sha256 "4b6f50d8cb565217d1cb74db53b5c274320e86c422ac764e1c8338b2cb7cab63"
+  url "https://github.com/Dialog-IF/dialog/releases/download/release-1b01-1.2.0/dialog-1b01-1.2.0.zip"
+  version "1b01-1.2.0"
+  sha256 "sha256:5e2776ac8cda07484e019d91e5d15645a2a22d41320f8fb3895a9b72cf50f8e8"
 
   def install
     chdir "src" do
